@@ -1,4 +1,6 @@
 {
     "name": "rock0/lara_auto",
-    "require": {}
+    "require": {
+        "monolog/monolog": "^2.1"
+    }
 }
