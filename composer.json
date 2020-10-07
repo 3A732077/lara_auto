@@ -1,6 +1,10 @@
 {
     "name": "rock0/lara_auto",
-    "require": {
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "./src/Demo"
+        },
         "monolog/monolog": "^2.1"
     }
 }
