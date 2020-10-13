@@ -1,10 +1,7 @@
 {
     "name": "rock0/lara_auto",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Demo\\": "./src/Demo"
-        },
-        "monolog/monolog": "^2.1"
+    "require": {
+        "monolog/monolog": "^2.1",
+        "nesbot/carbon": "^1.21"
     }
 }
